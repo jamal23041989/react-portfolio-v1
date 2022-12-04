@@ -10,13 +10,6 @@ footer a {
   color: var(--color-bg);
 }
 
-.footer__logo {
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 2rem;
-  display: inline-block;
-}
-
 .permalinks {
   display: flex;
   flex-wrap: wrap;
@@ -45,11 +38,6 @@ footer a {
   background: transparent;
   color: var(--color-bg);
   border-color: var(--color-bg);
-}
-
-.footer__copyright {
-  margin-bottom: 4rem;
-  color: var(--color-bg);
 }
 
 @media screen and (max-width: 1024px) {

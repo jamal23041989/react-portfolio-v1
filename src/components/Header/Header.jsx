@@ -1,20 +1,20 @@
-import { Cta, HeaderSocials } from '../index'
+import { Link } from 'react-router-dom'
+
 import './Header.css'
 
 export const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Jamal Kurbanov</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
-
-        <Cta />
-        <HeaderSocials />
-
-        <a href="#contact" className="scroll__down">
-          Scroll Down
-        </a>
+        <Link to="/">Home</Link>
+        <ul className="header__links">
+          <li>
+            <Link to="/portfolio">Projects</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contacts</Link>
+          </li>
+        </ul>
       </div>
     </header>
   )

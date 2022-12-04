@@ -1,8 +1,8 @@
 import { BsLinkedin, BsGithub, BsDribbble } from 'react-icons/bs'
 
-import './HeaderSocials.css'
+import './InfoHeaderSocials.css'
 
-export const HeaderSocials = () => {
+export const InfoHeaderSocials = () => {
   return (
     <div className="header__socials">
       <a href="https://linkedin.com" target="_blank">

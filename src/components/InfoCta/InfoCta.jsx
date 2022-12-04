@@ -1,7 +1,8 @@
-import './Cta.css'
 import CV from '../../assets/cv.pdf'
 
-export const Cta = () => {
+import './InfoCta.css'
+
+export const InfoCta = () => {
   return (
     <div className="cta">
       <a href={CV} download className="btn">

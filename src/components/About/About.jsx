@@ -1,5 +1,5 @@
 import './About.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me.gif'
 import { FaAward, FaUsers, FaFolder } from 'react-icons/fa'
 
 export const About = () => {

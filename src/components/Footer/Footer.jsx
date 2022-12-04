@@ -27,7 +27,6 @@ export const Footer = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-
       <div className="footer__socials">
         <a href="https://facebook.com">
           <AiFillFacebook />
@@ -38,10 +37,6 @@ export const Footer = () => {
         <a href="https://twiter.com">
           <AiFillTwitterCircle />
         </a>
-      </div>
-
-      <div className="footer__copyright">
-        <small>&copy; Jamal Kurbanov</small>
       </div>
     </footer>
   )
